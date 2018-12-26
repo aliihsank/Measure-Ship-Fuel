@@ -1,4 +1,4 @@
-# Measure Ship Fuel - A helpful application to measure ship's fuel volume
+# API Details
 
 - Uses an API as a gateway to create, manage, save Machine Learning Models
 - Takes some user measurements and creates a model according to that dataset.
