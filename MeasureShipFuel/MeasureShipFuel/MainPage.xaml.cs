@@ -13,5 +13,15 @@ namespace MeasureShipFuel
         {
             InitializeComponent();
         }
+
+        private void Predict_Volume(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new PredictVolume());
+        }
+
+        private void New_Measurement(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new NewMeasurement());
+        }
     }
 }
